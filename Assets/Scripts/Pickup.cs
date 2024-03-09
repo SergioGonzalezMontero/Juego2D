@@ -19,6 +19,9 @@ public class Pickup : MonoBehaviour
 
                 UIController.instance.UpdateGemCount();
                 Instantiate(pickupEffect, transform.position, transform.rotation);
+
+                AudioManager.instance.PlaySSFX(5);
+
                 isCollectec = true;
                 Destroy(gameObject);
             }
@@ -28,6 +31,8 @@ public class Pickup : MonoBehaviour
                 if(PlayerHealthController.instance.currentHealth != PlayerHealthController.instance.maxHealth)
                 {
                     PlayerHealthController.instance.HealPlayer();
+
+                    AudioManager.instance.PlaySSFX(6);
 
                     isCollectec = true;
                     Destroy(gameObject);

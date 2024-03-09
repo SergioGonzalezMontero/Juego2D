@@ -48,11 +48,15 @@ public class PlayerHealthController : MonoBehaviour
             currentHealth--;
             PlayerController.instance.anim.SetTrigger("Hurt");
 
+            AudioManager.instance.PlaySSFX(8);
+
             if (currentHealth <= 0)
             {
                 currentHealth = 0;
 
                 Instantiate(deathEffect, PlayerController.instance.transform.position, PlayerController.instance.transform.rotation);
+
+                AudioManager.instance.PlaySSFX(7);
 
                 LevelManager.instance.RespawnPlayer();
             }
@@ -60,6 +64,8 @@ public class PlayerHealthController : MonoBehaviour
             {
                 invincibleCounter = invincibleLength;
                 theSR.color = new Color(theSR.color.r, theSR.color.g, theSR.color.b, .5f);
+
+                
 
                 PlayerController.instance.Knockback();
             }

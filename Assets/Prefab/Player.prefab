@@ -122,11 +122,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 7.5
   jumpForce: 5
+  bounceForce: 0
   theRB: {fileID: 396303363956246446}
+  anim: {fileID: 0}
   groundCheckpoint: {fileID: 396303364122486530}
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 1536
+  knockBackLength: 0
+  knockBackForce: 0
+  stopInput: 0
 --- !u!70 &396303363956246447
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

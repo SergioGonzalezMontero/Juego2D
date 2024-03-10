@@ -17043,10 +17043,30 @@ PrefabInstance:
       propertyPath: levelToLoad
       value: NivelFinal
       objectReference: {fileID: 0}
+    - target: {fileID: 6485728267820095292, guid: faab4060336121e4fb27fbae34f11912,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6485728268065928769, guid: faab4060336121e4fb27fbae34f11912,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485728269119777263, guid: faab4060336121e4fb27fbae34f11912,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6880968823113589180, guid: faab4060336121e4fb27fbae34f11912,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6880968823113589180, guid: faab4060336121e4fb27fbae34f11912,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.51
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: faab4060336121e4fb27fbae34f11912, type: 3}

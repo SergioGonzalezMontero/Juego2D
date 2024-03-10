@@ -57,6 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\BossActivator.cs" />
+    <Compile Include="Assets\Scripts\BossBullet.cs" />
+    <Compile Include="Assets\Scripts\BossTankController.cs" />
+    <Compile Include="Assets\Scripts\BossTankHitBox.cs" />
+    <Compile Include="Assets\Scripts\BossTankMine.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\CheckpointController.cs" />
